@@ -1,8 +1,8 @@
 .global _start
 
 _start:
-  MOV R0, #0 @ 1001
-  MOV R1, #1 @ 1000
+  MOV R0, #0 
+  MOV R1, #1 
   B _continue_loop
 
 _loop:
